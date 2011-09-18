@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SearchUI", "SearchUI", "{D8D1C6F2-B2CD-4713-A53E-7B703A828C30}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		ProjectReferences = "{C786E691-BBC6-4162-BD35-CAE8DA09E9BB}|BLL.dll;{D8160472-4E42-410D-9A49-739EA5EA7D14}|DAL.dll;{E3B6AE96-D5C9-4A56-932A-7704487FA4B0}|ORM.dll;{859D57B7-3BA6-4B55-A393-EDC8B9E132B6}|Util.dll;{8F4FE242-A9CE-4A7A-9BD3-730EE871D6CA}|Rule.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/SearchUI"
+		Debug.AspNetCompiler.PhysicalPath = "SearchUI\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\SearchUI\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/SearchUI"
+		Release.AspNetCompiler.PhysicalPath = "SearchUI\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\SearchUI\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "61472"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Util", "Util\Util.csproj", "{859D57B7-3BA6-4B55-A393-EDC8B9E132B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ORM", "ORM\ORM.csproj", "{E3B6AE96-D5C9-4A56-932A-7704487FA4B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{D8160472-4E42-410D-9A49-739EA5EA7D14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{C786E691-BBC6-4162-BD35-CAE8DA09E9BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rule", "Rule\Rule.csproj", "{8F4FE242-A9CE-4A7A-9BD3-730EE871D6CA}"
+EndProject
+Global
+	GlobalSection(PowerDesigner) = preSolution
+		HasSWS = 1
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8D1C6F2-B2CD-4713-A53E-7B703A828C30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8D1C6F2-B2CD-4713-A53E-7B703A828C30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8D1C6F2-B2CD-4713-A53E-7B703A828C30}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8D1C6F2-B2CD-4713-A53E-7B703A828C30}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{859D57B7-3BA6-4B55-A393-EDC8B9E132B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{859D57B7-3BA6-4B55-A393-EDC8B9E132B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{859D57B7-3BA6-4B55-A393-EDC8B9E132B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{859D57B7-3BA6-4B55-A393-EDC8B9E132B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3B6AE96-D5C9-4A56-932A-7704487FA4B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3B6AE96-D5C9-4A56-932A-7704487FA4B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3B6AE96-D5C9-4A56-932A-7704487FA4B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3B6AE96-D5C9-4A56-932A-7704487FA4B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8160472-4E42-410D-9A49-739EA5EA7D14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8160472-4E42-410D-9A49-739EA5EA7D14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8160472-4E42-410D-9A49-739EA5EA7D14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8160472-4E42-410D-9A49-739EA5EA7D14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C786E691-BBC6-4162-BD35-CAE8DA09E9BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C786E691-BBC6-4162-BD35-CAE8DA09E9BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C786E691-BBC6-4162-BD35-CAE8DA09E9BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C786E691-BBC6-4162-BD35-CAE8DA09E9BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F4FE242-A9CE-4A7A-9BD3-730EE871D6CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F4FE242-A9CE-4A7A-9BD3-730EE871D6CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F4FE242-A9CE-4A7A-9BD3-730EE871D6CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F4FE242-A9CE-4A7A-9BD3-730EE871D6CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

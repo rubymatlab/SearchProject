@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="searchplatform" Class="SearchDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=YHWY\sqlexpress;Initial Catalog=searchplatform;Integrated Security=True" SettingsObjectName="ORM.Properties.Settings" SettingsPropertyName="searchplatformConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.fuhaiposition" Member="fuhaiposition">
+    <Type Name="fuhaiposition">
+      <Column Name="pos_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="pos_position" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="pos_positionurl" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="pos_business" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="pos_company" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="pos_companyurl" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="pos_address" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="pos_degree" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="pos_workexperience" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="pos_time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="pos_count" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="pos_salary" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="pos_from" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="pos_fromurl" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.junengposition" Member="junengposition">
+    <Type Name="junengposition">
+      <Column Name="pos_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="pos_position" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="pos_positionurl" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="pos_business" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="pos_company" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="pos_companyurl" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="pos_address" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="pos_degree" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="pos_workexperience" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="pos_time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="pos_count" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="pos_salary" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="pos_from" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="pos_fromurl" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

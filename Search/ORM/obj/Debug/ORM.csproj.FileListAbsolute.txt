@@ -1,0 +1,11 @@
+X:\我的文档\Search\ORM\bin\Debug\ORM.dll
+X:\我的文档\Search\ORM\bin\Debug\ORM.pdb
+X:\我的文档\Search\ORM\obj\Debug\ResolveAssemblyReference.cache
+X:\我的文档\Search\ORM\obj\Debug\ORM.dll
+X:\我的文档\Search\ORM\obj\Debug\ORM.pdb
+E:\项目开发-广度搜索平台\Search\ORM\bin\Debug\ORM.dll
+E:\项目开发-广度搜索平台\Search\ORM\bin\Debug\ORM.pdb
+E:\项目开发-广度搜索平台\Search\ORM\obj\Debug\ResolveAssemblyReference.cache
+E:\项目开发-广度搜索平台\Search\ORM\obj\Debug\ORM.dll
+E:\项目开发-广度搜索平台\Search\ORM\obj\Debug\ORM.pdb
+E:\项目开发-广度搜索平台\Search\ORM\bin\Debug\ORM.dll.config

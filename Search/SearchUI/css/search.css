@@ -1,0 +1,665 @@
+﻿    body, td
+        {
+            font-family: arial,宋体;
+        }
+        body
+        {
+            margin: 6px 0 0 0;
+            background: #fff;
+            color: #000;
+            font-size: 13px;
+        }
+        p, form
+        {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        input
+        {
+            padding-top: 0;
+            padding-bottom: 0;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        table, img
+        {
+            border: 0;
+        }
+        i, em
+        {
+            font-style: normal;
+        }
+        i
+        {
+            color: #00c;
+        }
+        em
+        {
+            color: #c00;
+        }
+        a
+        {
+            color: #00c;
+        }
+        a em
+        {
+            text-decoration: underline;
+        }
+        #head
+        {
+            font-size: 12px;
+            padding: 0 0 0 15px;
+        }
+        .nv
+        {
+            height: 45px;
+            z-index: 200;
+        }
+        .nv .tab
+        {
+            padding: 20px 0 0;
+            line-height: 18px;
+            position: relative;
+            top: -4px;
+        }
+        .nv a, .nv b, .btn
+        {
+            font-size: 14px;
+        }
+        .nv a
+        {
+            color: #00c;
+        }
+        .tab a
+        {
+            margin-right: 12px;
+        }
+        .btn
+        {
+            width: 95px;
+            height: 32px;
+            padding: 0;
+            padding-top: 2px\9;
+            border: 0;
+            background: #ddd url(../img/i2.png) 0 -35px;
+            cursor: pointer;
+        }
+        .btn_h
+        {
+            background-position: -100px -35px;
+        }
+        .mis-clearfix:after
+        {
+            content: ".";
+            display: block;
+            height: 0;
+            clear: both;
+            visibility: hidden;
+            overflow: hidden;
+            font-size: 0;
+        }
+        .mis-clearfix
+        {
+            zoom: 1;
+        }
+        #select-radio
+        {
+            clear: left;
+            padding: 4px 0 0 6px;
+        }
+        #select-radio span
+        {
+            margin-right: 32px;
+        }
+        #select-radio span i
+        {
+            position: relative;
+            top: -2px;
+            color: #000;
+        }
+        #se-info
+        {
+            clear: left;
+            padding: 20px 0 3px 15px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        #se-info a
+        {
+            color: #c00;
+            text-decoration: underline;
+        }
+        #nav-lists, #industry, #job-cate
+        {
+            background: url(../img/zhaopin/nav-bg.png) repeat-x;
+        }
+        #nav-lists
+        {
+            background-position: 0 -53px;
+            width: 960px;
+            border-top: 1px solid #e3e6ea;
+            padding: 8px 0 0 8px;
+        }
+        #nav-lists, #nav-lists strong
+        {
+            float: left;
+        }
+        #industry, #job-cate
+        {
+            float: left;
+            position: relative;
+            margin-left: 20px;
+            width: 210px;
+            border: 1px solid #9db9d1;
+            background-position: 0 -25px;
+        }
+        #zhaopin-nav-container .nav-title, #zhaopin-nav-container .all-cate a
+        {
+            background: url(../img/zhaopin/nav-bg.png) no-repeat;
+        }
+        #zhaopin-nav-container .nav-title
+        {
+            cursor: pointer;
+            padding: 1px 4px 1px 6px; *padding-top:2px;display:block;background-position:193px6px;zoom:1}
+        #zhaopin-nav-container ul
+        {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            font-size: 13px;
+            position: absolute;
+            visibility: hidden;
+            width: 210px;
+            background: #fff;
+            border: 1px solid #9db9d1;
+            left: -1px;
+            padding-bottom: 10px;
+        }
+        #zhaopin-nav-container ul li
+        {
+            margin: 10px 0 0;
+            padding: 0 6px;
+        }
+        #zhaopin-nav-container ul a
+        {
+            text-decoration: none;
+        }
+        #zhaopin-nav-container ul a:hover
+        {
+            text-decoration: underline;
+        }
+        #zhaopin-nav-container li span
+        {
+            color: #999b9a;
+            font-size: 12px;
+        }
+        #zhaopin-nav-container .all-cate
+        {
+            text-align: center;
+        }
+        #zhaopin-nav-container .all-cate a
+        {
+            background-position: -21px 0;
+            padding: 3px 12px;
+            color: #000;
+        }
+        .htb
+        {
+            margin-bottom: 5px;
+        }
+        #ft
+        {
+            clear: both;
+            line-height: 20px;
+            background: #E6E6E6;
+            text-align: center;
+            min-width: 950px;
+        }
+        #ft, #ft *
+        {
+            color: #77C;
+            font-size: 12px;
+            font-family: Arial;
+        }
+        #ft span
+        {
+            color: #666;
+        }
+        #sug
+        {
+            display: none;
+        }
+        form
+        {
+            margin: 0;
+        }
+        #midmain
+        {
+            padding: 20px 0 0 20px;
+            width: 960px;
+            clear: left;
+        }
+        #midmain h3
+        {
+            font-size: 16px;
+            line-height: 1;
+        }
+        #midmain span
+        {
+            vertical-align: bottom;
+        }
+        #job_nav_table
+        {
+            width: 960px;
+        }
+        #job_nav_table td
+        {
+            border-bottom: 1px solid #eae8f6;
+            vertical-align: top;
+            line-height: 18px;
+            height: 30px;
+        }
+        .job_nav_label
+        {
+            width: 60px;
+            text-align: left;
+            font-weight: bold;
+            font-size: 13px;
+            padding-left: 3px;
+            color: #000;
+        }
+        .job_nav_all
+        {
+            width: 60px;
+            text-align: left;
+            font-size: 13px;
+            color: #0200cd;
+        }
+        .job_nav_canvas
+        {
+            width: 880px;
+            text-align: left;
+            font-size: 13px;
+            color: #0200cd;
+        }
+        .job_nav_canvas div
+        {
+            float: left;
+            line-height: 30px;
+            color: #0200cd;
+            font-weight: normal;
+            margin-right: 17px;
+            cursor: pointer;
+        }
+        .job_nav_itemC, .job_nav_itemCh, .job_nav_itemL, .job_nav_itemLh, .job_nav_itemR, .job_nav_itemRh, .job_nav_more, .job_nav_less, .job_nav_labeltxt
+        {
+            display: block;
+            float: left;
+            overflow: hidden;
+            height: 18px;
+            line-height: 18px;
+            margin-top: 6px;
+        }
+        .job_nav_itemC, .job_nav_more, .job_nav_less
+        {
+            background: #FFF;
+            font-family: 宋体;
+            padding: 0 2px;
+            white-space: nowrap;
+        }
+        .job_nav_itemCh
+        {
+            background: url(../img/zhaopin/nav_c.png);
+            font-family: 宋体;
+            padding: 0 2px;
+            white-space: nowrap;
+        }
+        .job_nav_itemL
+        {
+            width: 2px;
+            background: #FFF;
+        }
+        .job_nav_itemLh
+        {
+            width: 2px;
+            background: url(../img/zhaopin/nav_l.png);
+        }
+        .job_nav_itemR
+        {
+            width: 2px;
+            background: #FFF;
+        }
+        .job_nav_itemRh
+        {
+            width: 2px;
+            background: url(../img/zhaopin/nav_r.png);
+        }
+        .job_nav_more
+        {
+            width: 43px;
+            background: url(../img/zhaopin/nav_open.png) no-repeat left bottom;
+        }
+        .job_nav_less
+        {
+            width: 43px;
+            background: url(../img/zhaopin/nav_close.png) no-repeat left bottom;
+        }
+        #job
+        {
+            margin-left: 0;
+            padding: 0 2px;
+            width: 200px;
+            height: 19px;
+            line-height: 19px;
+        }
+        #job_table_div
+        {
+            width: auto; *width:100%}
+        #job_table
+        {
+            width: 100%;
+            min-width: 900px;
+        }
+        #job_table caption
+        {
+            line-height: 30px;
+            text-align: right;
+            font-size: 13px;
+        }
+        #job_table th
+        {
+            font-size: 13px;
+            font-weight: normal;
+            text-align: left;
+            padding-left: 10px;
+            line-height: 30px;
+            background: url("../img/table/bg.gif") repeat-x 0 -34px;
+        }
+        #job_table td
+        {
+            padding: 6px 0 4px 10px;
+            font-size: 14px;
+            font-weight: normal;
+            text-align: left;
+            vertical-align: middle;
+            line-height: 1.3;
+            border-bottom: 1px solid #eee;
+        }
+        #job_table tr.high
+        {
+            background: #f6f6f8;
+        }
+        #job_table td a
+        {
+            text-decoration: none;
+        }
+        #job_table td a:hover
+        {
+            text-decoration: underline;
+        }
+        #job_table td a em
+        {
+            text-decoration: none;
+        }
+        #job_table td a:hover em
+        {
+            text-decoration: underline;
+        }
+        .job_attr
+        {
+            color: #666;
+            margin-right: 4px;
+            font-size: 12px;
+            line-height: 24px;
+            font-family: 宋体;
+        }
+        #pager
+        {
+            margin: 30px;
+            auto: ;;text-align:center;width:960px}
+        #pager a
+        {
+            font-size: 14px;
+        }
+        a.jobsite:link, a.jobsite:visited, a.jobsite:hover, a.jobsite:active
+        {
+            color: #007f00;
+            text-decoration: underline;
+        }
+        .q_btn
+        {
+            display: inline-block;
+            background: transparent url(../img/zhaopin/op_email_btn.gif) no-repeat scroll -100px 0;
+            color: #000;
+            cursor: pointer;
+            height: 24px;
+            line-height: 24px;
+            margin-left: 10px;
+            text-align: center;
+            text-decoration: none;
+            width: 81px;
+            font-size: 13px;
+        }
+        .fc
+        {
+            display: none;
+            position: absolute;
+            overflow: hidden;
+            margin-top: -3px; *margin-top:-10px;z-index:1000}
+        .fci
+        {
+            position: relative;
+            margin-left: 9px;
+            border: 1px solid #7589c3;
+            width: 325px;
+        }
+        .fcc
+        {
+            border: 4px solid #c1cff3;
+            padding: 10px 15px;
+            width: auto;
+            background: #fff;
+            max-height: 260px;
+            overflow-x: hidden;
+            overflow-y: auto;
+        }
+        .jj
+        {
+            overflow: hidden;
+            background-image: url(../img/zhaopin/s.gif);
+        }
+        .jj0
+        {
+            width: 16px;
+            height: 16px;
+            background-position: 0 0;
+        }
+        .jj1
+        {
+            width: 16px;
+            height: 16px;
+            background-position: -25px 0;
+        }
+        .jj2
+        {
+            width: 16px;
+            height: 16px;
+            background-position: -50px 0;
+            display: inline-block;
+        }
+        .jj3
+        {
+            width: 16px;
+            height: 16px;
+            background-position: -75px 0;
+        }
+        .jj4
+        {
+            width: 21px;
+            height: 20px;
+            background-position: 0 -25px;
+            float: left;
+            display: inline-block;
+            cursor: pointer;
+        }
+        .jj5
+        {
+            width: 21px;
+            height: 20px;
+            background-position: -30px -25px;
+            float: left;
+            display: inline-block;
+            cursor: pointer;
+        }
+        .jj6
+        {
+            width: 21px;
+            height: 20px;
+            background-position: -60px -25px;
+            float: left;
+            display: inline-block;
+            cursor: pointer;
+        }
+        .jj7
+        {
+            width: 21px;
+            height: 20px;
+            background-position: 0 -50px;
+            float: left;
+            display: inline-block;
+            cursor: pointer;
+        }
+        .jj8
+        {
+            width: 11px;
+            height: 22px;
+            background-position: -30px -50px;
+            position: absolute;
+            z-index: 999;
+            left: 1px;
+            top: 8px;
+        }
+        .jjc
+        {
+            width: 30px;
+            height: 20px;
+            line-height: 22px;
+            vertical-align: middle;
+            padding-left: 5px;
+            overflow: hidden;
+            float: left;
+            display: none;
+            cursor: pointer;
+            font-size: 12px;
+            text-decoration: underline;
+        }
+        .dropdown
+        {
+            float: left;
+            display: inline-block;
+            position: relative;
+            height: 18px;
+            line-height: 18px;
+            border: 1px solid #BBB;
+            background: #FFF url(../img/zhaopin/e.gif) no-repeat right center;
+            cursor: pointer;
+        }
+        .dropmenu
+        {
+            z-index: 0;
+            display: none;
+            position: absolute;
+            margin-top: 18px;
+            margin-left: -1px;
+            background: #fff;
+            border: 1px solid #BBB;
+        }
+         ;
+        .dropitem
+        {
+            display: block;
+            padding-left: 2px;
+            height: 25px;
+            line-height: 25px;
+        }
+        .dropmenumask
+        {
+            overflow: hidden;
+            position: absolute;
+            width: 100%;
+            height: 3px;
+            background: #FFF;
+            margin-top: 18px; *margin-top:16px;display:none}
+        span.label
+        {
+            text-decoration: none;
+            cursor: normal;
+        }
+        span.link
+        {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        #setHome
+        {
+            min-width: 950px;
+        }
+        #pager
+        {
+            width: 950px;
+        }
+        #hotCityList a
+        {
+            display: inline-block;
+            float: left;
+            margin-left: 15px;
+            margin-right: 15px;
+            width: 30px;
+            font-size: 13px;
+        }
+        #provinceList, #provinceCityList
+        {
+            line-height: 1.5;
+        }
+        #provinceList a
+        {
+            display: inline-block;
+            float: left;
+            margin-left: 15px;
+            margin-right: 15px;
+            width: 30px;
+            overflow: visible;
+            white-space: nowrap;
+            font-size: 13px;
+        }
+        #provinceCityList a
+        {
+            display: inline-block;
+            float: left;
+            margin-left: 15px;
+            margin-right: 0;
+            width: 55px;
+            overflow: visible;
+            white-space: nowrap;
+            font-size: 13px;
+        }
+        .tableTitle
+        {
+            margin-left: 2px;
+            width: 80px;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+        #job_se_info
+        {
+            font-size: 12px;
+            color: #F00;
+            line-height: 24px;
+            display: none;
+        }
+        #job_table .title
+        {
+            width: 320px;
+        }
