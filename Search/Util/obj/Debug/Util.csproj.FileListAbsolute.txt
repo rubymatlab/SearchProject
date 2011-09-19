@@ -8,3 +8,8 @@ E:\项目开发-广度搜索平台\Search\Util\bin\Debug\Util.pdb
 E:\项目开发-广度搜索平台\Search\Util\obj\Debug\ResolveAssemblyReference.cache
 E:\项目开发-广度搜索平台\Search\Util\obj\Debug\Util.dll
 E:\项目开发-广度搜索平台\Search\Util\obj\Debug\Util.pdb
+D:\SearchProject\SearchProject\Search\Util\bin\Debug\Util.dll
+D:\SearchProject\SearchProject\Search\Util\bin\Debug\Util.pdb
+D:\SearchProject\SearchProject\Search\Util\obj\Debug\ResolveAssemblyReference.cache
+D:\SearchProject\SearchProject\Search\Util\obj\Debug\Util.dll
+D:\SearchProject\SearchProject\Search\Util\obj\Debug\Util.pdb

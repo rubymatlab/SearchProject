@@ -1,17 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Search">
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 9.5" name="Search">
   <DataContextMoniker Name="/SearchDataContext" />
   <nestedChildShapes>
-    <classShape Id="374e16da-7205-4ff2-b9dd-757595f002d4" absoluteBounds="5.375, 1.5, 2, 3.4817427571614581">
-      <DataClassMoniker Name="/SearchDataContext/fuhaiposition" />
+    <classShape Id="c36678c7-dcb7-4ef2-b9ee-6771055b3e9b" absoluteBounds="0.75, 0.75, 2, 3.4817427571614576">
+      <DataClassMoniker Name="/SearchDataContext/baiduhuizhou" />
       <nestedChildShapes>
-        <elementListCompartment Id="06b7a80b-7a64-4285-9878-45d071ac21e8" absoluteBounds="5.39, 1.96, 1.9700000000000002, 2.921742757161458" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="046c5806-6d4a-47ae-9415-ae3616eff4fe" absoluteBounds="0.765, 1.21, 1.9700000000000002, 2.921742757161458" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <classShape Id="d80791f5-3394-4007-b3ba-35ad15ec4498" absoluteBounds="7.625, 1.5, 2, 3.4817427571614581">
+    <classShape Id="7fdd01b7-9fb6-4224-8281-fcdfef649b2d" absoluteBounds="3.75, 0.75, 2, 3.4817427571614576">
       <DataClassMoniker Name="/SearchDataContext/junengposition" />
       <nestedChildShapes>
-        <elementListCompartment Id="cd3ca8bc-dcd1-4412-9d3b-78f3a432eee0" absoluteBounds="7.64, 1.96, 1.9700000000000002, 2.921742757161458" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="77a4082d-d9c5-4696-88fd-954fbc53fad3" absoluteBounds="3.765, 1.21, 1.9700000000000002, 2.921742757161458" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ddc8d4e6-a155-4de1-bf09-91ec2a40d9a7" absoluteBounds="0.75, 5.75, 2, 3.4817427571614576">
+      <DataClassMoniker Name="/SearchDataContext/fuhaiposition" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e946d4f4-534d-42e5-9094-22e8546a2804" absoluteBounds="0.765, 6.21, 1.9700000000000002, 2.921742757161458" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
   </nestedChildShapes>

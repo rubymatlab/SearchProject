@@ -11,9 +11,14 @@
     <div>
     
     </div>
-    <asp:Button ID="Button1" runat="server" Text="加载富海人才网数据" onclick="Button1_Click" />
-    <asp:Button ID="Button2" runat="server" Text="加载聚能人才网数据" 
-        onclick="Button2_Click" />
+    网址：<a href="http://www.jobbaidu.com/Commons/ListPosition!list.shtml" target="_blank">http://www.jobbaidu.com/Commons/ListPosition!list.shtml</a>
+    <br /><asp:Button ID="Button1" runat="server" Text="加载富海人才网数据" onclick="Button1_Click" /><br /><br />
+    网址：<a href="http://www.jnjobs.cn/Search/JobsList.aspx?key=&keytype=&workarea=&jobpost=&industry=&starteducation=10&endeducation=70&stratworkexperience=01&endworkexperience=13&age=16&sex=&iseducationnull=True&isworkexperiencenull=True&isagenull=True&showno=10" target="_blank">http://www.jnjobs.cn/Search/JobsList.aspx?key=&keytype=&workarea=&jobpost=&industry=&starteducation=10&endeducation=70&stratworkexperience=01&endworkexperience=13&age=16&sex=&iseducationnull=True&isworkexperiencenull=True&isagenull=True&showno=10</a>
+    <br /><asp:Button ID="Button2" runat="server" Text="加载聚能人才网数据" 
+        onclick="Button2_Click" /><br /><br />
+        网址：<a href="http://open.baidu.com/zhaopin/s?wd=%BB%DD%D6%DD%D5%D0%C6%B8&rn=20&p=mini&tn=baiduzhaopin&type=" target="_blank">http://open.baidu.com/zhaopin/s?wd=%BB%DD%D6%DD%D5%D0%C6%B8&rn=20&p=mini&tn=baiduzhaopin&type=</a>
+    <br /><asp:Button ID="Button3" runat="server" Text="加载百度惠州招聘数据" 
+        onclick="Button3_Click" />
     </form>
 </body>
 </html>

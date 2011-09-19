@@ -73,9 +73,9 @@ public class FilterJuNeng
                     continue;
                 else
                 {
-                    a.Insert_Position_JuNeng(obj);
-                    //if (!a.Insert_Position_JuNeng(obj))
-                    //    Util.MessageBox.ShowMessage(a.error);
+                    //a.Insert_Position_JuNeng(obj);
+                    if (!a.Insert_Position_JuNeng(obj))
+                        Util.MessageBox.ShowMessage(a.error);
                 }
             }
         }

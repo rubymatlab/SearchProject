@@ -9,3 +9,9 @@ E:\项目开发-广度搜索平台\Search\ORM\obj\Debug\ResolveAssemblyReference
 E:\项目开发-广度搜索平台\Search\ORM\obj\Debug\ORM.dll
 E:\项目开发-广度搜索平台\Search\ORM\obj\Debug\ORM.pdb
 E:\项目开发-广度搜索平台\Search\ORM\bin\Debug\ORM.dll.config
+D:\SearchProject\SearchProject\Search\ORM\bin\Debug\ORM.dll.config
+D:\SearchProject\SearchProject\Search\ORM\bin\Debug\ORM.dll
+D:\SearchProject\SearchProject\Search\ORM\bin\Debug\ORM.pdb
+D:\SearchProject\SearchProject\Search\ORM\obj\Debug\ResolveAssemblyReference.cache
+D:\SearchProject\SearchProject\Search\ORM\obj\Debug\ORM.dll
+D:\SearchProject\SearchProject\Search\ORM\obj\Debug\ORM.pdb

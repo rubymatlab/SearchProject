@@ -36,20 +36,20 @@ namespace DAL
         #region###增加富海人才网的数据
         public static void Insert_Position_FuHai(fuhaiposition a)
         {
-            fuhaiposition b = new fuhaiposition();
-            b.pos_address = a.pos_address;
-            b.pos_business = a.pos_business;
-            b.pos_company = a.pos_company;
-            b.pos_companyurl = a.pos_companyurl;
-            b.pos_count = a.pos_count;
-            b.pos_degree = a.pos_degree;
-            b.pos_from = a.pos_from;
-            b.pos_fromurl = a.pos_fromurl;
-            b.pos_position = a.pos_position;
-            b.pos_positionurl = a.pos_positionurl;
-            b.pos_salary = a.pos_salary;
-            b.pos_time = a.pos_time;
-            b.pos_workexperience = a.pos_workexperience;
+            //fuhaiposition b = new fuhaiposition();
+            //b.pos_address = a.pos_address;
+            //b.pos_business = a.pos_business;
+            //b.pos_company = a.pos_company;
+            //b.pos_companyurl = a.pos_companyurl;
+            //b.pos_count = a.pos_count;
+            //b.pos_degree = a.pos_degree;
+            //b.pos_from = a.pos_from;
+            //b.pos_fromurl = a.pos_fromurl;
+            //b.pos_position = a.pos_position;
+            //b.pos_positionurl = a.pos_positionurl;
+            //b.pos_salary = a.pos_salary;
+            //b.pos_time = a.pos_time;
+            //b.pos_workexperience = a.pos_workexperience;
             db.fuhaiposition.InsertOnSubmit(a);
         }
         #endregion
@@ -79,20 +79,20 @@ namespace DAL
         #region###增加聚能人才网的数据
         public static void Insert_Position_JuNeng(junengposition a)
         {
-            junengposition b = new junengposition();
-            b.pos_address = a.pos_address;
-            b.pos_business = a.pos_business;
-            b.pos_company = a.pos_company;
-            b.pos_companyurl = a.pos_companyurl;
-            b.pos_count = a.pos_count;
-            b.pos_degree = a.pos_degree;
-            b.pos_from = a.pos_from;
-            b.pos_fromurl = a.pos_fromurl;
-            b.pos_position = a.pos_position;
-            b.pos_positionurl = a.pos_positionurl;
-            b.pos_salary = a.pos_salary;
-            b.pos_time = a.pos_time;
-            b.pos_workexperience = a.pos_workexperience;
+            //junengposition b = new junengposition();
+            //b.pos_address = a.pos_address;
+            //b.pos_business = a.pos_business;
+            //b.pos_company = a.pos_company;
+            //b.pos_companyurl = a.pos_companyurl;
+            //b.pos_count = a.pos_count;
+            //b.pos_degree = a.pos_degree;
+            //b.pos_from = a.pos_from;
+            //b.pos_fromurl = a.pos_fromurl;
+            //b.pos_position = a.pos_position;
+            //b.pos_positionurl = a.pos_positionurl;
+            //b.pos_salary = a.pos_salary;
+            //b.pos_time = a.pos_time;
+            //b.pos_workexperience = a.pos_workexperience;
             db.junengposition.InsertOnSubmit(a);
         }
         #endregion
@@ -108,6 +108,50 @@ namespace DAL
                 return true;
             else
                 return false;
+        }
+        #endregion
+
+        /******************************
+        ** 作者： 周永丰
+        ** 变更时间： 2011-9-19
+        ******************************/
+        #region###判断百度惠州数据是否在本地数据库存在
+        public static bool Select_Position_BaiduHuiZhou(string pos_positionurl)
+        {
+            if (db.baiduhuizhou.Where(o => o.pos_positionurl == pos_positionurl).Count() > 0)
+                return true;
+            else
+                return false;
+        }
+        #endregion
+
+        /******************************
+        ** 作者： 周永丰
+        ** 变更时间： 2011-9-19
+        ******************************/
+        /// <summary>
+        /// 增加百度惠州数据
+        /// </summary>
+        /// <param name="a">百度惠州对象</param>
+        #region###增加百度惠州的数据
+        public static void Insert_Position_BaiduHuiZhou(baiduhuizhou a)
+        {
+            //baiduhuizhou  b = new baiduhuizhou();
+            //b.pos_address = a.pos_address;
+            //b.pos_business = a.pos_business;
+            //b.pos_company = a.pos_company;
+            //b.pos_companyurl = a.pos_companyurl;
+            //b.pos_count = a.pos_count;
+            //b.pos_degree = a.pos_degree;
+            //b.pos_from = a.pos_from;
+            //b.pos_fromurl = a.pos_fromurl;
+            //b.pos_position = a.pos_position;
+            //b.pos_positionurl = a.pos_positionurl;
+            //b.pos_salary = a.pos_salary;
+            //b.pos_time = a.pos_time;
+            //b.pos_workexperience = a.pos_workexperience;
+            //db.baiduhuizhou.InsertOnSubmit(b);
+            db.baiduhuizhou.InsertOnSubmit(a);
         }
         #endregion
 

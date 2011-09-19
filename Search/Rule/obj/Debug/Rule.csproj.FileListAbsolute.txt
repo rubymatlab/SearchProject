@@ -5,3 +5,10 @@ E:\项目开发-广度搜索平台\Search\Rule\obj\Debug\Rule.dll
 E:\项目开发-广度搜索平台\Search\Rule\obj\Debug\Rule.pdb
 E:\项目开发-广度搜索平台\Search\Rule\bin\Debug\Util.dll
 E:\项目开发-广度搜索平台\Search\Rule\bin\Debug\Util.pdb
+D:\SearchProject\SearchProject\Search\Rule\bin\Debug\Rule.dll
+D:\SearchProject\SearchProject\Search\Rule\bin\Debug\Rule.pdb
+D:\SearchProject\SearchProject\Search\Rule\bin\Debug\Util.dll
+D:\SearchProject\SearchProject\Search\Rule\bin\Debug\Util.pdb
+D:\SearchProject\SearchProject\Search\Rule\obj\Debug\ResolveAssemblyReference.cache
+D:\SearchProject\SearchProject\Search\Rule\obj\Debug\Rule.dll
+D:\SearchProject\SearchProject\Search\Rule\obj\Debug\Rule.pdb
