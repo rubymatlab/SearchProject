@@ -36,4 +36,11 @@ public partial class _Default : System.Web.UI.Page
         FilterBaiduHuiZhou.Load();
         return;
     }
+    protected void Button4_Click(object sender, EventArgs e)
+    {
+        Filter.Load_FuHai();
+        Filter.Load_JuNeng();
+        Filter.Load_BaiduHuiZhou();
+        return;
+    }
 }

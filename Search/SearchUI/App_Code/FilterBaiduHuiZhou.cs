@@ -38,7 +38,7 @@ public class FilterBaiduHuiZhou
     ** 作者： 周永丰
     ** 变更时间： 2011-9-19
     ******************************/
-    #region###加载聚能人才网的数据
+    #region###加载百度招聘的数据
     public static void Load()
     {
         /** 一个装载数据的容器List<baiduhuizhou> **/
@@ -84,7 +84,6 @@ public class FilterBaiduHuiZhou
                     continue;
                 else
                 {
-                    //a.Insert_Position_BaiduHuiZhou(obj);
                     if (!a.Insert_Position_BaiduHuiZhou(obj))
                         Util.MessageBox.ShowMessage(a.error);
                 }

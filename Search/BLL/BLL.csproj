@@ -48,6 +48,7 @@
     <Compile Include="BLLBaiduHuiZhou.cs" />
     <Compile Include="BLLFuHai.cs" />
     <Compile Include="BLLJuNeng.cs" />
+    <Compile Include="BLLPosition.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

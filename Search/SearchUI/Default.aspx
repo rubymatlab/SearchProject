@@ -18,7 +18,9 @@
         onclick="Button2_Click" /><br /><br />
         网址：<a href="http://open.baidu.com/zhaopin/s?wd=%BB%DD%D6%DD%D5%D0%C6%B8&rn=20&p=mini&tn=baiduzhaopin&type=" target="_blank">http://open.baidu.com/zhaopin/s?wd=%BB%DD%D6%DD%D5%D0%C6%B8&rn=20&p=mini&tn=baiduzhaopin&type=</a>
     <br /><asp:Button ID="Button3" runat="server" Text="加载百度惠州招聘数据" 
-        onclick="Button3_Click" />
+        onclick="Button3_Click" /><br /><br />
+    <asp:Button ID="Button4" runat="server" Text="加载以上3个网站的数据到postion表" 
+        onclick="Button4_Click" />
     </form>
 </body>
 </html>

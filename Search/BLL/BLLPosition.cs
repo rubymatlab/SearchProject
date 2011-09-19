@@ -4,26 +4,28 @@ using System.Linq;
 using System.Text;
 /******************************
 ** 作者： 周永丰
-** 变更时间： 2011-8-26
+** 变更时间： 2011-9-19
 ** 引用程序集
 ** DAL
 ******************************/
 
 /******************************
 ** 作者： 周永丰
-** 变更时间： 2011-8-26
+** 变更时间： 2011-9-19
 ** 命名空间
 ******************************/
 using DAL;
 using ORM;
 namespace BLL
 {
-    public class BLLJuNeng:IDisposable
+    public class BLLPosition:IDisposable
     {
         /// <summary>
         /// 错误信息
         /// </summary>
         public string error = null;
+
+
 
         /******************************
         ** 作者： 周永丰
@@ -35,11 +37,11 @@ namespace BLL
         /// <param name="a"></param>
         /// <returns></returns>
         #region###富海人才网数据插入
-        public bool Insert_Position_JuNeng(junengposition a)
+        public bool Insert_Position(position a)
         {
             try
             {
-                DALPosition.Insert_Position_JuNeng(a);
+                DALPosition.Insert_Position(a);
                 DALPosition.SubmitChanges();
                 return true;
             }
@@ -47,7 +49,6 @@ namespace BLL
             {
                 error = e.Message;
                 return false;
-
             }
         }
         #endregion
@@ -57,15 +58,15 @@ namespace BLL
         ** 变更时间： 2011-9-1
         ******************************/
         #region###富海人才网数据查询
-        public bool Select_Position_JuNeng(string pos_positionurl)
+        public bool Select_Position(string pos_positionurl)
         {
-            return DALPosition.Select_Position_JuNeng(pos_positionurl);
+            return DALPosition.Select_Position(pos_positionurl);
         }
         #endregion
 
         /******************************
         ** 作者： 周永丰
-        ** 变更时间： 2011-8-26
+        ** 变更时间： 2011-9-19
         ******************************/
         #region###释放资源
         public void Dispose()
@@ -82,7 +83,7 @@ namespace BLL
         /// <summary>
         /// 析构函数
         /// </summary>
-        ~BLLJuNeng()
+        ~BLLPosition()
         {
             this.Dispose();
         }
